@@ -105,7 +105,7 @@ Zillow Data Science team
 
 #### Takeaways from Hypothesis Testing:
 - We reject the null hypothesis on all four hypothesis test.
-- There are relationships between the features and log error
+- There are relationships between the features and the log error
 
 ## Executive Summary - Conclusions & Next Steps
 
