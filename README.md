@@ -10,10 +10,11 @@
 
 ### Project Goals:
 
-- Find drivers of logerror "Zillow Zestimate"
-- (logerror = predicted sale value - actual sale value)
-    
-- Construct a model that helps us better predict logerror
+- To find the drivers of the error in the "Zestimate" (logerror)
+  - 'logerror' = predicted sale value - actual sale value 
+  
+- Construct a model that improves prediction of the logerror
+
 
 ## Project Summary
 
@@ -109,17 +110,17 @@ Zillow Data Science team
 
 ## Executive Summary - Conclusions & Next Steps
 
+- Drivers for errors in the Zillow Zestimatet
 
-- We reject the null hypothesis on all four hypothesis test.
+    - number of bedrooms
+    - age of property
+    - total square feet
 
-- There is a relationship between Square Feet, Bedrooms, Property Age, Longitude and the log error
- 
-- Found clusters between:
-    - age of property and number of bedrooms
-    - age of property and total square feet of the property
-    - longitude and total square feet of the property
+- Modeling  Predictions
 
-- 2nd degree Polynomial regression model performed best - Model Performs 1.4% better than the baseline
+    - 2nd degree Polynomial regression model performed best - Model Performs 1.4% better than the baseline
+
+- The real estate market and other unknown factors can cause the zestimate to be off and increasing the logerror. eg. home sellers personal situation or price negotiations between buyer and seller
 
 - I would like to find if there are better predictors of log error by creating more clusters
 
