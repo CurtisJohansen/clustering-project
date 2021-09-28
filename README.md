@@ -185,3 +185,4 @@ You will need your own env file with database credentials along with all the nec
 - Download the wrangle.py, explore.py and final_report.ipynb files into your working directory
 - Add your own env file to your directory. (user, password, host)
 - Run the final_report.ipynb notebook
+
