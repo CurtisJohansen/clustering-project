@@ -32,11 +32,6 @@ Zillow Data Science team
 
 ### Data Dictionary:
 
-| Target          |                   Definition                        |Datatype |
-|-----------------|-----------------------------------------------------|:-------:|
-| logerror        | difference between actual value and predicted value | float64 | 
-
-
 | Feature                    |             Definition              |Datatype |
 |----------------------------|-------------------------------------|:-------:|
 |parcelid                    |unique property id                   |int64    |
@@ -58,6 +53,11 @@ Zillow Data Science team
 |property_age                |engineered column- age of property   |object   |
 
 
+| Target          |                   Definition                        |Datatype |
+|-----------------|-----------------------------------------------------|:-------:|
+| logerror        | difference between actual value and predicted value | float64 | 
+
+
 | propertyusetypeid   |    Definition                            |
 |---------------------|:----------------------------------------:|
 |261                  |Single Family Residential                 |
@@ -71,7 +71,6 @@ Zillow Data Science team
 |275                  |Manufactured, Modular, Prefabricated Homes|       
 |276                  |Patio Home                                |
 |279                  |Inferred Single Family Residential        |
-
 
 
 ## Hypothesis
